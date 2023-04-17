@@ -1,0 +1,204 @@
+@font-face {
+    font-family: kanit;
+    src: url(../../shared/fonts/Kanit-Regular.ttf);
+}
+.parent{
+    background-color:rgb(224, 224, 224);
+    width:20%;   
+    padding-top:1em;
+    overflow: scroll;
+    height: 100vh;
+}
+.partOne{
+    padding: 0em 2em;
+}
+.available{
+    font-size:0.8em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    color: #647787;
+}
+.iconpagename{
+    display: flex;
+    align-items: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.money{
+    color: #213F7D;
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 35px;
+    font-family: 'Kanit';
+    font-style: normal;
+}
+.moneyTwo{
+    font-size: 1.1em;
+    font-weight: 700; 
+    color: #647787;
+    font-family: 'Kanit';
+    font-style: normal;
+}
+.usd{
+    font-size: 0.7em;
+    padding-left: 0.4em;
+    font-family: 'Kanit';
+    font-style: normal;
+}
+.iconDiv{
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rowTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+.rowBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0em;
+}
+.arrowUp{
+    color: green;
+    font-size: 1.4em;
+}
+.arrowDown{
+    color: rgb(173, 34, 34);
+    font-size: 1.4em;
+}
+.incomePercent{
+    color: green;
+    font-size: 1em;
+}
+.outcomePercent{
+    color: rgb(173, 34, 34);
+    font-size: 1em;
+}
+.transferBtn{
+    background: #213F7D;
+    border: none;
+    color: rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 0.3em 1em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+}
+.billsBtn{
+    background:  rgb(173, 34, 34);
+    border: none;
+    color: rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 0.3em 1em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+}
+.income{
+    color: #545F7D;
+    padding-top: 1em;
+}
+.link{
+    display: flex;
+    text-decoration:none;  
+    align-items: center;
+    padding: 1.2em 2em;
+}
+.link:hover {
+    // background-color: #5034ee;
+    // color:#39CDCC;
+  }
+  .menu{
+    padding: 0.2em 2em 0.3em;
+  }
+.pageName{
+    font-size:1.05em;
+    padding-left: 0.7em; 
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+}
+.menuIcon{
+    font-size: 1.2em;
+}
+.title{
+    font-size:0.8em;
+    padding-left: 2em; 
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: #545F7D;
+    padding-top: 3em;
+    margin-bottom: 1em;
+    
+}
+.iconArrow{
+   height: 18px;
+   width: 18px;
+   padding-left: 1em;
+   padding-top: 0.5em;
+}
+.signout{
+    padding: 3em 2em;
+    cursor: pointer;
+}
+.main{
+    width:80%;
+    height:100vh;
+    overflow:scroll
+}
+*::-webkit-scrollbar {
+    // width: 12px;
+    // height: 12px;
+}
+::-webkit-scrollbar-corner { 
+    background: rgba(175, 151, 12, 0.5); 
+}
+
+@media screen and (max-width: 997px) {
+    .main{
+      width:100%
+    }
+    .pageName{
+        font-size:1.1em;
+        padding-left: 1em; 
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        color: #213F7D;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .parent {
+      width:70px;
+    }
+    .pageName{
+        display: none;
+    }
+    // .link:hover {
+    //     background-color: rgb(177, 177, 177);
+    //     width: 100%;
+    //   }
+      .title{
+        display: none;
+    }  
+    .switch{
+        font-size: 1.3em;
+    }
+  }

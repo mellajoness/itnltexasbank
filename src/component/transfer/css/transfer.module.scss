@@ -1,0 +1,274 @@
+@font-face {
+    font-family: kanit;
+    src: url(../../../shared/fonts/Kanit-Regular.ttf);
+}
+.parent{
+    padding: 2em 
+}
+.gdpRow{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.gdpDiv{
+    border: 1px solid gray;
+    width: 100%;
+    padding: 0.1em 1em;
+    border-radius: 5px;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+}
+.payDiv{
+    border: 1px solid gray;
+    width: 100%;
+    padding: 0.1em 1em;
+    border-radius: 5px;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+}
+.gdptext{
+    color: rgb(173, 34, 34);
+}
+.boxParent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 50%;
+    padding-top: 2em;
+    height: 400px;
+}
+.title{
+    font-size:1.8em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    color: #616161;
+    text-align: center;
+    letter-spacing: 0.4px;
+}
+.transferAmount{
+    font-size:0.95em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgb(78, 47, 255);
+    letter-spacing: 0.4px;  
+}
+.dropdownToggle{
+    display:flex;
+    border:1px solid;
+    border-color:#777E90;
+    justify-content:space-between;
+    border-radius:7px;
+    padding-left:10px;
+    padding-right:0px;
+    height: 50px;
+    align-items:center;
+    width: 100%;
+    background: none !important;
+    color: black !important;
+}
+.dropBox{
+    margin-top:1em;
+    height:150px;
+    overflow:auto;
+}
+.inputTitle{
+    font-size:0.9em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    color: #616161;
+}
+.minValue{
+    font-size:0.8em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    color: #7e7e7e; 
+}
+.inputParent{
+    margin-top: 2em;
+}
+.inputDiv{
+    margin-top: 1em;
+}
+.inputDivTwo{
+    margin-top: 1em;
+    width: 90%;
+}
+.input{
+    border: 1px solid rgba(157, 165, 178, 0.5);
+    backdrop-filter: blur(12px);
+    border-radius:7px;
+    height: 50px;
+    width: 100%;
+    padding: 0em 1em;
+    line-height: 29px;
+    color: #616161;
+    border-color:#777E90;
+}
+.inputHalf{
+    border: 1px solid rgba(157, 165, 178, 0.5);
+    backdrop-filter: blur(12px);
+    border-radius:7px;
+    height: 50px;
+    width: 100%;
+    padding: 0em 1em;
+    line-height: 29px;
+    color: #616161;
+    border-color:#777E90;  
+}
+.btnDiv{
+    margin-top: 2em;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rowMarquee{
+    display: flex;
+    align-items: center;
+    padding-right: 2em; 
+}
+.btnTwo{
+    background:  rgb(173, 34, 34);
+    border: none;
+    color: rgb(247, 247, 247);
+    border-radius: 5px;
+    padding: 0.3em 1em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    width: 300px;
+    margin: 0.4em;
+    padding: 0.5em;
+}
+.pay{
+    font-size: 2em;
+    color: green;
+}
+.editBtnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+.editBtn{
+    border: none;
+    background: rgb(199, 199, 199) ;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+.modalParent{
+    max-width: 600px;
+    width: 50% !important;
+    border-radius: 24px !important;
+    padding-bottom: 2em;
+}
+.modalContent{
+    background: #ffffff;  
+    padding: 0em 5em !important;
+}
+.cancelIcon{
+    float: right;
+}
+.cancelDiv{
+    background: #ffffff;  
+    padding: 1em; 
+}
+.modalTitle{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4em;
+    line-height: 38px;
+    text-align: center;
+    color: #3b3b3b;   
+   
+}
+.modalDesc{
+    font-family: 'kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(78, 47, 255);
+    padding-top: 0.3em;
+}
+.modalRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.invoiceborderLine{
+    border:  1px solid rgb(206, 206, 206);
+    margin-top: 0.5em;
+}  
+.boxBorder{
+    box-shadow: 0px 10px 20px rgba(52, 72, 115, 0.06);
+    border-radius: 16px;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 1em;
+    margin-top: 1em;
+}
+.invoiceRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    align-items: center;
+}
+.invoiceRowBtn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.7em; 
+    align-items: center;
+}
+.paragraph{
+    font-family: 'kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
+.infoIcon{
+  padding-right: 5px;
+  font-size: 1.2em;
+}
+.receiptBtnDiv{
+    margin: 2em;
+}
+@media screen and (max-width: 1000px) {
+    .box{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .box{
+        width: 65%;
+    }
+    .modalParent{
+        max-width: 600px;
+        width: 70% !important;
+        border-radius: 24px !important;
+        padding-bottom: 2em;
+    }
+}
+@media screen and (max-width: 660px) {
+    .box{
+        width: 75%;
+    }
+}

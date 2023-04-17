@@ -1,0 +1,98 @@
+@font-face {
+    font-family: kanit;
+    src: url(../../shared/fonts/Kanit-Regular.ttf);
+}
+.parent{
+    height: 80px;
+    box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+    width: 100%;
+    display: flex;
+    background-color:rgb(224, 224, 224);
+    justify-content: space-between;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.12);
+}
+.logoDiv{
+    display: flex;
+    align-items: center; 
+    padding: 0em 2em;
+    cursor: pointer;
+    width: 20%;
+    border-bottom: 2px solid rgb(182, 126, 126);
+    border-right: 2px solid rgb(218, 218, 218);
+}
+.textDiv{
+    padding-left: 0.6em;
+}
+.ultain{
+    font-family: 'Kanit';
+    font-style: normal;
+     font-weight: 900;
+     font-size: 0.8em;
+     line-height: 17px;
+     letter-spacing: 0.1em;
+     color: #FFFFFF;
+}
+.instant{
+     font-family: 'Nunito Sans';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 0.6em;
+     line-height: 17px;
+     letter-spacing: 0.1em;
+     color: #FFFFFF;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #B3B3B3;   
+    padding: 0em 1.5em;
+    cursor: pointer;
+}
+.icons{
+    color: #B3B3B3;    
+    padding: 0em 0.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.passportDiv{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    cursor: pointer;
+}
+.nameConnectedDiv{
+    padding-left: 10px;
+}
+.connected{
+    font-size:0.8em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    color: #00d87e; 
+    font-family: 'Kanit';
+    font-style: normal;
+    letter-spacing: 0.4px;
+}
+.name{
+    font-size:1em;
+    font-weight: 600;
+    line-height: 15px;
+    color: #647787; 
+    font-family: 'Kanit';
+    font-style: normal;
+    letter-spacing: 0.4px;
+}
+.passport{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}

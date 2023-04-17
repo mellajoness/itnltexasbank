@@ -1,0 +1,20 @@
+@font-face {
+    font-family: kanit;
+    src: url(../../../../shared/fonts/Kanit-Regular.ttf);
+}
+.primaryBtn{
+    background: #213F7D;
+    border: none;
+    color: rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 0.3em 1em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    font-size:1em;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+}

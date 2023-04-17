@@ -1,0 +1,83 @@
+.parent{
+    background-color: rgb(16, 16, 155);
+    border-radius: 13px; 
+    margin-top: 2em;
+    padding: 0em 
+}
+.content{
+    padding: 1em;
+}
+.title{
+    // font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 36px;
+    color: #F0F1FF;   
+}
+.tablerow{
+    background:#3a3ad1;
+    height: 50px;
+}
+.tablehead{
+    // font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:1em;
+    line-height: 14px;
+    color: #778CA2; 
+}
+.tabledata{
+    // font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 16px;
+    color: #B1B5C3;
+    padding-top: 2em !important;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+
+    
+@media screen and (max-width: 1190px) {
+    .icon{
+        width: 30px;
+    }
+    .tabledata{
+        font-size: 0.7em;
+    }
+    .plusIcon{
+        width: 17px;
+    }
+}    
+@media screen and (max-width: 995px) {
+    .tablehead{
+        font-weight: 600;
+        font-size: 0.66em;
+        line-height: 14px;
+    }
+    .icon{
+        width: 25px;
+    }
+}  
+@media screen and (max-width: 940px) {
+    .tabledata{
+        padding-top: 2em !important;
+        white-space: nowrap; 
+        width: 50px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+}
+@media screen and (max-width: 830px) {
+    .tabledata{
+        width: fit-content; 
+       
+    }
+}  
+
+
+
